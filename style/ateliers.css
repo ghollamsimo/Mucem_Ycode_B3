@@ -1,0 +1,80 @@
+.create-account{
+    display: flex;
+}
+.input{
+    display: flex;
+    flex-direction: column;
+}
+.input input{
+    padding: 15px ;
+    width: 25rem;
+    border: 0px;
+    background-color: #d9d9d9;
+    margin: 20px;
+    outline: none;
+}
+.right-ateliers{
+    position: relative;
+    top: 100px;
+}
+.right-ateliers h1{
+    margin: 20px;
+    color: #000;
+font-family: Inter;
+font-size: 40px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.right-ateliers h3{
+    margin: 20px;
+    color: #000;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.open h1{
+    text-align: center;
+    color: #000;
+font-family: Inter;
+font-size: 40px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.time{
+    margin: 32px;
+    display: flex;
+    justify-content: space-around;
+}
+.card-time span{
+    font-size: 25px;
+}
+.card-time{
+    font-size: 30px;
+}
+.card-time{
+    text-align: center;
+    font-weight: 500;
+    background: #A49284;
+    padding: 30px 100px;
+    color: #fff;
+}
+@media only screen and (max-width: 700px) {
+    .left-ateliers{
+        display: none;
+    }
+    .right-ateliers{
+        height: fit-content;
+        top: 0px;
+    }
+    .time{
+        flex-direction: column;
+        margin: 10px;
+    }
+    .card-time{
+        margin: 10px;
+    }
+  }
