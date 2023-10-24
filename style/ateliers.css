@@ -10,12 +10,12 @@
     width: 25rem;
     border: 0px;
     background-color: #d9d9d9;
-    margin: 20px;
+    margin: 10px;
     outline: none;
 }
 .right-ateliers{
     position: relative;
-    top: 100px;
+    top: 90px;
 }
 .right-ateliers h1{
     margin: 20px;
