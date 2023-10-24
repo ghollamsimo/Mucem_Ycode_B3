@@ -1,0 +1,41 @@
+.galerie{ 
+    background-image: url(../assets/carrelage\ marocain\ \(zellige\)\ 1.png);
+}
+.galerie-section{
+    display: flex;
+    margin: 50px;
+}
+.galerie-image{
+    margin: 50px;
+}
+.galerie-video{
+    display: flex;
+}
+.galerie-video iframe{
+    margin: 50px;
+}
+@media only screen and (max-width: 700px) {
+    .galerie-section{
+        flex-direction: column;
+        margin: 10px;
+    }
+    .galerie-image{
+        margin: 0px;
+    }
+    .image-galerie img:nth-child(2){
+        width: 400px;
+    }
+    .galerie-image img:first-child{
+        width: 400px;
+    }
+    .galerie-image img:nth-child(2){
+        width: 30rem;
+    }
+    .galerie-video{
+        flex-direction: column;
+        gap: 30px;
+    }
+    .galerie-video iframe{
+        margin: 0px;
+    }
+}
