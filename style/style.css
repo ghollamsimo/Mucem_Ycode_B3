@@ -216,7 +216,8 @@ margin: 16px;
     color: #fff;
   }
   .card img{
-    width: 15rem;
+    width: 20rem;
+    border-radius: 20px;
     margin: 16px;
   }
 
@@ -309,7 +310,7 @@ line-height: normal;
         font-size: 10px;
     }
     .btn{
-        padding: 20px 100px;
+        padding: 20px 80px;
     }
     .nav-link {
         position: absolute;
@@ -359,24 +360,32 @@ line-height: normal;
         
     }
     .card{
-        width: 27rem;
+        width: 20rem;
         text-align: center;
     }
     .card img{
-        width: 400px;
+        width: 17rem;
     }
     .card-item p{
         text-align: center;
         width: fit-content;
     }
     .my-1{
-        left: 15%;
+        left: 0%;
     }
     .flex{
         flex-direction: column;
     }
     .right-side_signup img{
         display: none;
+    }
+    .left-side_signup{
+        margin: 0px;
+        padding: 0px;
+    }
+    .left-side_signup p{
+       font-size: 1rem;
+       margin: 5px;
     }
     .my-2{
         text-align: center;

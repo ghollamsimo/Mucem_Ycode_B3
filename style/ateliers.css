@@ -63,6 +63,10 @@ line-height: normal;
     color: #fff;
 }
 @media only screen and (max-width: 1024px) {
+    .input input{
+        padding: 15px ;
+        width: 15rem;
+    }
     .left-ateliers{
         display: none;
     }
