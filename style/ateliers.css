@@ -65,7 +65,7 @@ line-height: normal;
 @media only screen and (max-width: 1024px) {
     .input input{
         padding: 15px ;
-        width: 15rem;
+        width: 20rem;
     }
     .left-ateliers{
         display: none;
